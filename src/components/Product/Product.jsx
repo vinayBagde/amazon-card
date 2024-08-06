@@ -16,7 +16,6 @@ function Product({ title, idx }) {
     <>
       <div className="product">
         <h4>{title}</h4>
-        <p>Title</p>
         <p>{discription[idx][0]}</p>
         <p>{discription[idx][1]}</p>
         <Price oldPrice={oldPrices[idx]} newPrice={newPrices[idx]} />
